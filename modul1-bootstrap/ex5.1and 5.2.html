@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid Alignment and Reordering</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    .exercise-box {
+      min-height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-4">
+    <h1 class="mb-4 text-center">5. Alignment and Reordering in Grid</h1>
+
+    <h3 class="mt-5 mb-3">Center Content</h3>
+    <div class="row justify-content-center align-items-center bg-light exercise-box">
+      <div class="col-6 text-center bg-primary text-white p-3">Centered Box</div>
+    </div>
+
+    <h3 class="mt-5 mb-3">Reorder Columns</h3>
+    <div class="row text-center g-3">
+      <div class="col-md-6 order-md-2 bg-warning text-white p-3">Column A (order-md-2)</div>
+      <div class="col-md-6 order-md-1 bg-info text-white p-3">Column B (order-md-1)</div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

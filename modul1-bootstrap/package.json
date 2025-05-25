@@ -1,0 +1,19 @@
+{
+  "name": "module1-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build-css": "sass --quiet-deps scss/custom.scss css/custom.css",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  },
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
