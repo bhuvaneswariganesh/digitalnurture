@@ -1,0 +1,12 @@
+body {
+  background-color: rgba(240, 248, 255, 0.8);
+  color: #333333;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section h2 {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 10px;
+}
